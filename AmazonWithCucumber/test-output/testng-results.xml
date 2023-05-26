@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-17T20:21:57 EDT" name="Default suite" finished-at="2023-05-17T20:23:09 EDT" duration-ms="71439">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:in.amazon.testscripts.TestRunner@478190fc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-05-17T20:21:57 EDT" name="Default test" finished-at="2023-05-17T20:23:09 EDT" duration-ms="71439">
+      <class name="in.amazon.testscripts.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:in.amazon.testscripts.TestRunner@478190fc]" started-at="2023-05-17T20:21:57 EDT" name="setUpClass" finished-at="2023-05-17T20:21:58 EDT" duration-ms="578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6486fe7b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:in.amazon.testscripts.TestRunner@478190fc]" started-at="2023-05-17T20:21:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-17T20:22:16 EDT" duration-ms="18628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["A user should be able to buy a mobile phone on Amazon successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Buy mobile phone on Amazon]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:in.amazon.testscripts.TestRunner@478190fc]" started-at="2023-05-17T20:22:16 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-17T20:22:23 EDT" duration-ms="6853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["A user with invalid credentials must not be able to login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:in.amazon.testscripts.TestRunner@478190fc]" started-at="2023-05-17T20:22:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-17T20:22:31 EDT" duration-ms="7550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User with invalid credentials should get an error"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:in.amazon.testscripts.TestRunner@478190fc]" started-at="2023-05-17T20:22:31 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-17T20:22:38 EDT" duration-ms="7544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login functionality with multiple invalid emails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:in.amazon.testscripts.TestRunner@478190fc]" started-at="2023-05-17T20:22:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-17T20:22:47 EDT" duration-ms="8198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login functionality with multiple invalid emails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:in.amazon.testscripts.TestRunner@478190fc]" started-at="2023-05-17T20:22:47 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-17T20:22:53 EDT" duration-ms="6696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login functionality with multiple invalid emails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:in.amazon.testscripts.TestRunner@478190fc]" started-at="2023-05-17T20:22:53 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-17T20:23:00 EDT" duration-ms="6508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login functionality with multiple invalid emails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:in.amazon.testscripts.TestRunner@478190fc]" started-at="2023-05-17T20:23:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-17T20:23:07 EDT" duration-ms="6722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login functionality with multiple invalid emails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:in.amazon.testscripts.TestRunner@478190fc]" started-at="2023-05-17T20:23:07 EDT" name="tearDownClass" finished-at="2023-05-17T20:23:09 EDT" duration-ms="2090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- in.amazon.testscripts.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
